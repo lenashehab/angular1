@@ -1,0 +1,9 @@
+<div class="row p-5 m-5">
+  <div class="col-lg-6" *ngFor="let item of mealarr">
+    <div>
+      <p class="fs-1 color">{{ item.strMeal }}</p>
+      <img [src]="item.strMealThumb" class="w-50" />
+    </div>
+  </div>
+</div>
+

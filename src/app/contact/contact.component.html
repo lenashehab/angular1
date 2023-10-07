@@ -1,0 +1,59 @@
+<section class="contact p-5 m-5">
+  <!-- heading -->
+  <h1 class="color text-center bolder mt-5">CONTACT ME</h1>
+  <div class="starLine pb-4 d-flex justify-content-center align-items-center">
+    <div class="line rounded"></div>
+    <i class="fa-solid fa-star fs-2 px-3 color"></i>
+    <div class="line rounded"></div>
+  </div>
+  <!-- form -->
+  <div class="form">
+    <div class="col-lg-8 mx-auto mt-4">
+      <div class="mb-3">
+        <label type="text" [style]="styleLabel">{{name}}</label>
+        <input
+          type="text"
+          class="form-control py-3"
+          id="exampleFormControlInput1"
+          placeholder="Name"
+          (keypress)="showLabel()"
+        />
+      </div>
+      <div class="mb-3">
+        <label type="text" [style]="styleLabel">{{email}}</label>
+        <input
+          type="email"
+          class="form-control py-3"
+          id="exampleFormControlInput1"
+          placeholder="Email Address"
+          (keypress)="showLabelE()"
+        />
+      </div>
+      <div class="mb-3">
+        <label type="text" [style]="styleLabel">{{phone}}</label>
+        <input
+          type="text"
+          class="form-control py-3"
+          id="exampleFormControlInput1"
+          placeholder="Phone Number"
+          (keypress)="showLabelp()"
+        />
+      </div>
+      <div class="mb-3">
+        <label type="text" [style]="styleLabel">{{massage}}</label>
+        <textarea
+          class="form-control"
+          id="exampleFormControlTextarea1"
+          rows="5"
+          placeholder="Message"
+          (keypress)="showLabelm()"
+        ></textarea>
+      </div>
+      <div class="mb-3">
+        <button class="btn btn-primary px-4 py-3 fs-5" type="submit">
+          Send
+        </button>
+      </div>
+    </div>
+  </div>
+</section>

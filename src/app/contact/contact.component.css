@@ -1,0 +1,26 @@
+.color{
+    color:#2c3e50;
+}
+h1{
+    font-size: 3rem;
+    font-weight: 700;
+}
+/* star-line */
+.line{
+    background-color: #2c3e50;
+    height: 0.2rem;
+    width: 7rem;
+}
+
+/* form */
+.form-control{
+    border: none;
+  border-bottom: 1px solid #e9ecef;;
+}
+::placeholder{
+font-size: 1.5rem;
+}
+.btn{
+    background-color: #1abc9c;
+    border: none;
+}

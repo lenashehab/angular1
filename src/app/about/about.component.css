@@ -1,0 +1,18 @@
+.about{
+    height: 100vh;
+    background-color: #1abc9c;;
+}
+.m-6{
+    margin-top: 5rem;
+}
+/* heading */
+h1{
+    font-size: 3rem;
+    font-weight: 700;
+}
+/* star-line */
+.line{
+    background-color: white;
+    height: 0.2rem;
+    width: 7rem;
+}
